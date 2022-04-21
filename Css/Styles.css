@@ -60,6 +60,9 @@
     color: #94C123;
 }
 
+.user-welcome-nav a:active{
+    color: #94C123;
+}
 .user-welcome-out{
     position: absolute;
     top: 16em;
@@ -148,7 +151,205 @@
     height: auto;
 }
 
-@media only screen and (min-width: 768px) {
+.contact-btn{
+    background: none;
+    border: none;
+    font-weight: bold;
+    padding-right: 9em;
+}
+
+.contact-btn:hover{
+    color: #94C123;
+}
+
+.contact-btn:active{
+    color: #94C123;
+}
+
+.contact-btn{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .contact{
+        display: none;
+    }
+
+    .user-welcome-avatar{
+        position: absolute;
+        top: 5em;
+        left: 15em;
+        width: 20em;
+        height: 12em;
+    }
+
+    .user-welcome-text{
+        position: absolute;
+        top: 5.5em;
+        left: 2.2em;
+        width: 10em;
+        text-align: center;
+        font-size: 3.5em;
+    }
     
+    .user-welcome-nav{
+        position: absolute;
+        top: 30em;
+        left: 9em;
+        width: 28em;
+    }
+
+    .user-welcome-nav li{
+        border-bottom: 1px solid lightgray;
+        font-weight: bold;
+        width: 30em;
+        font-size: 1em;
+        line-height: 3em;
+        margin: 2em;
+    }
+
+    .user-welcome-nav a{
+        position: relative;
+        font-size: 2em;
+        text-decoration: none;
+        color: black;
+    }
     
+    .user-welcome-out{
+        position: absolute;
+        top: 0;
+        left: 1.1em;
+    }
+
+    .contact-btn{
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 1080px) {
+    
+    .contact-desktop{
+        display: none;
+    }
+    .contact-btn{
+        display: block;
+    }
+    .contact{
+        display: none;
+    }
+
+    .user-welcome-avatar{
+        top: 5em;
+        left: 20em;
+        width: 25em;
+        height: 15em;
+    }
+
+    .user-welcome-text{
+        top: 6em;
+        left: 3.1em;
+        width: 10em;
+        text-align: center;
+        font-size: 4em;
+    }
+    
+    .user-welcome-nav{
+        position: absolute;
+        top: 38em;
+        left: 12em;
+        width: 30em;
+    }
+
+    .user-welcome-nav li{
+        border-bottom: 1px solid lightgray;
+        font-weight: bold;
+        width: 30em;
+        font-size: 1.2em;
+        line-height: 3em;
+        margin: 3em;
+    }
+
+    .user-welcome-nav a{
+        position: relative;
+        font-size: 2em;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .user-welcome-out{
+        position: absolute;
+        top: 0;
+        left: 2.1em;
+    }
+
+    .contact-btn{
+        font-size: 2em;
+        padding-left: 1.5em;
+        padding-bottom: 1em;
+    }
+
+    .modal-header{
+        width: 12em;
+        margin: 2em;
+        margin-left: 3em;
+        height: 6em;
+        width: 90%;
+    }
+
+    .modal-header h2{
+        margin-top: 1em;
+        font-size: 2.5em;
+    }
+
+    .modal-body{
+        height: 1em;
+    }
+
+    .controls{
+        height: 2em;
+        margin: 1em;
+        width: 90%;
+        font-size: 2em;
+        padding: 1em;
+    }
+
+
+    .controls::placeholder{
+        font-size: 1em;
+        position: absolute;
+        top: 0.5em;
+    }
+
+    .controls-msj{
+        padding: 1em;
+        font-size: 2em;
+        margin: 1em;
+        width: 90%;
+        height: 40%;
+    }
+
+    .controls-msj::placeholder{
+        font-size: 1em;
+        top: .6em;
+        left: 1em;
+    }
+    
+    .contact-form-button{
+        position: absolute;
+        top: 30.4em;
+        left: 12em;
+        height: 5%;
+        width: 26%;
+        font-size: 2em;
+    }
+
+    .contact-info{
+        font-size: 20px;
+        top: 92%;
+        left: 23%;
+        width: 50%;
+        text-align: center;
+    }
 }

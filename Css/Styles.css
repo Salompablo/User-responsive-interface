@@ -229,7 +229,8 @@
 }
 
 @media only screen and (max-width: 1080px) {
-    
+
+
     .contact-desktop{
         display: none;
     }
@@ -242,14 +243,14 @@
 
     .user-welcome-avatar{
         top: 5em;
-        left: 20em;
-        width: 25em;
+        left: 14em;
+        width: 18em;
         height: 15em;
     }
 
     .user-welcome-text{
         top: 6em;
-        left: 3.1em;
+        left: 0.8em;
         width: 10em;
         text-align: center;
         font-size: 4em;
@@ -258,7 +259,7 @@
     .user-welcome-nav{
         position: absolute;
         top: 38em;
-        left: 12em;
+        left: 3em;
         width: 30em;
     }
 
@@ -284,18 +285,26 @@
         left: 2.1em;
     }
 
+    .form-register{
+        width: 95%;
+    }
+
     .contact-btn{
         font-size: 2em;
         padding-left: 1.5em;
         padding-bottom: 1em;
     }
 
+    .modal-content{
+        width: 90%;
+    }
+
+
     .modal-header{
-        width: 12em;
         margin: 2em;
         margin-left: 3em;
         height: 6em;
-        width: 90%;
+        width: 65%;
     }
 
     .modal-header h2{
@@ -308,9 +317,9 @@
     }
 
     .controls{
-        height: 2em;
+        height: 0.5em;
         margin: 1em;
-        width: 90%;
+        width: 65%;
         font-size: 2em;
         padding: 1em;
     }
@@ -326,20 +335,20 @@
         padding: 1em;
         font-size: 2em;
         margin: 1em;
-        width: 90%;
+        width: 65%;
         height: 40%;
     }
 
     .controls-msj::placeholder{
         font-size: 1em;
-        top: .6em;
+        top: .4em;
         left: 1em;
     }
     
     .contact-form-button{
         position: absolute;
         top: 30.4em;
-        left: 12em;
+        left: 7em;
         height: 5%;
         width: 26%;
         font-size: 2em;
@@ -348,7 +357,7 @@
     .contact-info{
         font-size: 20px;
         top: 92%;
-        left: 23%;
+        left: 11%;
         width: 50%;
         text-align: center;
     }
